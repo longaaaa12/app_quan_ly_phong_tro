@@ -70,7 +70,7 @@ public class HoaDonDao {
         while (cursor.moveToNext()){
             HoaDon hoaDon= new HoaDon();
             hoaDon.setIdPhong(cursor.getInt(cursor.getColumnIndex("IdPhong")));
-            hoaDon.setNgay(cursor.getInt(cursor.getColumnIndex("Ngay")));
+            hoaDon.setNgay(String.valueOf(cursor.getInt(cursor.getColumnIndex("Ngay"))));
             hoaDon.setSoDien(cursor.getInt(cursor.getColumnIndex("SoDien")));
             hoaDon.setSoNuoc(cursor.getInt(cursor.getColumnIndex("SoNuoc")));
             hoaDon.setTong(cursor.getInt(cursor.getColumnIndex("Tong")));

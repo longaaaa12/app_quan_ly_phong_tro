@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7sp"
+            android:text="Độc lập - Tự do - Hạnh phúc"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="HỢP ĐỒNG THUÊ TRỌ"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="7sp"
+                android:text="Hôm nay,"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="7sp"
+                android:text="ngày.... tháng... năm... "
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginBottom="7sp"
+            android:text="Tại địa chỉ: 15 Phú Kiều, Kiều Mai, Nam Từ Niêm, Hà Nội"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginBottom="7sp"
+            android:text="1.Đại diện bên A (bên cho thuê)"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="7sp"
+                android:text="Ông/Bà: Nguyễn văn A"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="7sp"
+                android:text="Sinh ngày: 01/01/1989"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginBottom="7sp"
+            android:text="Số CMND(CCCD): 012345678999"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginBottom="7sp"
+            android:text="Số điện thoại: 09999999998"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginBottom="7sp"
+            android:text="2.Đại diện bên B (bên thuê)"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="7sp"
+                android:text="Ông/Bà: Nguyễn văn B"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="7sp"
+                android:text="Sinh ngày: 01/01/2002"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginBottom="7sp"
+            android:text="Số CMND(CCCD): 098765432111"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginBottom="7sp"
+            android:text="Số điện thoại: 0888888889"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginBottom="7sp"
+            android:text="Sau khi bàn bạc, hai bên cùng thống nhất như sau:"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="7sp"
+                android:text="Bên A đồng ý cho bên B thuê 01 phòng:"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="7sp"
+                android:text="201"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginBottom="7sp"
+            android:text="Giá thuê: 10000000 đ/tháng"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginBottom="7sp"
+            android:text="Tiền điện: 4000 đ/kwh"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginBottom="7sp"
+            android:text="Tiền nước: 30000 đ/khối/tháng "
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginBottom="7sp"
+            android:text="Tiền wifi: 100000 đ/stháng "
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginBottom="7sp"
+            android:text="Rác: 30000 đ/tháng"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginBottom="7sp"
+            android:text="Tiền đặt cọc: 500000 "
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="7sp"
+            android:text="Hợp đồng có giá trị kể từ ngày 27/10/2022 đến ngày 28/10/2022"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginBottom="7sp"
+            android:text="3.Thỏa thuận của 2 bên"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginBottom="7sp"
+            android:text="*Trách nhiệm bên A:"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="7sp"
+            android:text="- Tạo mọi điều kiện thuận lợi để bên B thực hiện theo hợp đồng."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="7sp"
+            android:text="- Cung cấp nguồn điện, nước đầy đủ cho bên B sử dụng."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginBottom="7sp"
+            android:text="*Trách nhiệm bên B:"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="7sp"
+            android:text="- Thanh toán đầy đủ tiền theo đúng thỏa thuận."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="7sp"
+            android:text="- Bảo quản các trang thiết bị và cơ sở vật chất của bên A trang bị cho ban đầu (làm hỏng phải sửa, mất phải đền)."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="7sp"
+            android:text="- Luôn có ý thức giữ gìn vệ sinh trong và ngoài khu vực phòng trọ."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="7sp"
+            android:text="- Nếu bên B cho khách ở qua đêm thì phải báo trước và được sự đồng ý của bên A, đồng thời phải chịu trách nhiệm về các hành vi vi phạm pháp luật của khách trong thời gian ở lại (nếu có)."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="7sp"
+                android:layout_weight="1"
+                android:text="ĐẠI DIỆN BÊN A"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="7sp"
+                android:layout_weight="1"
+                android:text="ĐẠI DIỆN BÊN B"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="7sp"
+                android:layout_weight="1"
+                android:text="A"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="7sp"
+                android:layout_weight="1"
+                android:text="B"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="7sp"
+                android:layout_weight="1"
+                android:text="Nguyễn Văn A"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="7sp"
+                android:layout_weight="1"
+                android:text="Nguyễn Văn B"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

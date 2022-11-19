@@ -104,8 +104,6 @@ public class PhongFragment extends Fragment implements interfaceDeleteClickdisti
                     list.clear();
                     list.addAll(phongDAO.getAll());
                     phongAdapter.notifyDataSetChanged();
-
-
             }
         });
         btn_huyphong

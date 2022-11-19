@@ -38,7 +38,7 @@ public class HoaDon {
         return Ngay;
     }
 
-    public void setNgay(int ngay) {
+    public void setNgay(String ngay) {
         Ngay = ngay;
     }
 

@@ -74,7 +74,6 @@ public class PhongAdapter extends BaseAdapter {
         }
         LinearLayout ln_item_dv = view.findViewById(R.id.ln_menu_phong);
         myViewHolder.tv_sophong.setText("Phòng"+": "+list.get(i).getSoPhong());
-
         ln_item_dv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
