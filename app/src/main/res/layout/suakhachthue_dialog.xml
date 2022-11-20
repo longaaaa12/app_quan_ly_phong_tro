@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sua Khach Thue"
+        android:textSize="36dp"
+        android:gravity="center"
+        android:id="@+id/tvTitle"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="40dp"
+        android:background="#A59AE8"
+        android:hint="Họ Tên" />
+
+    <EditText
+        android:id="@+id/edtSDT"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/edtHoTen"
+        android:layout_marginTop="40dp"
+        android:background="#A59AE8"
+        android:hint="Số Điện Thoại" />
+
+    <EditText
+        android:id="@+id/edtCCCD"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/edtSDT"
+        android:layout_marginTop="40dp"
+        android:background="#A59AE8"
+        android:hint="CCCD" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtCCCD"
+        android:text="Thêm"
+        android:layout_margin="40dp"
+        android:id="@+id/btnThemKhachThue"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtCCCD"
+        android:layout_margin="40dp"
+        android:layout_alignParentRight="true"
+        android:text="Hủy"
+        android:id="@+id/btnhuyThemKhachThue"/>
+</RelativeLayout>

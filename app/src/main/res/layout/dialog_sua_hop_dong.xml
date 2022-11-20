@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sua Hop Dong"
+        android:textSize="36dp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/edt_NgayBatDau"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Ngày Bắt đầu"
+        android:background="@color/purple_200"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_NgayKetThuc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Ngày hết hạn"
+        android:background="@color/purple_200"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_SoNguoi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Số người"
+        android:background="@color/purple_200"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_SoLuongXe"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Số lượng xe"
+        android:background="@color/purple_200"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_TienCoc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Tiền cọc"
+        android:background="@color/purple_200"
+        android:layout_marginTop="20dp"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_sua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorDividerView"
+            android:text="Sửa"
+            android:textColor="@color/black"
+            app:iconPadding="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.342" />
+
+        <Button
+            android:id="@+id/btn_huy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/colorDividerView"
+            android:text="Hủy"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.342" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="236dp"
+            android:layout_marginBottom="39dp"
+            android:text="Tình Trạng:Đang thuê"
+            app:layout_constraintBottom_toTopOf="@+id/btn_sua"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:orientation="horizontal">-->
+
+    <!--        <Button-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Sửa"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:layout_marginLeft="16dp"-->
+    <!--            android:backgroundTint="@color/colorDividerView"-->
+    <!--            android:layout_marginTop="20dp"-->
+    <!--            />-->
+
+    <!--        <Button-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="20dp"-->
+    <!--            android:backgroundTint="@color/colorDividerView"-->
+    <!--            android:text="Hủy"-->
+    <!--            android:textColor="@color/black" />-->
+
+    <!--    </LinearLayout>-->
+
+
+
+</LinearLayout>
