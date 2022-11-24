@@ -85,7 +85,6 @@ public class PhongFragment extends Fragment implements interfaceDeleteClickdisti
         dialog.show();
 
         btn_themphong.setOnClickListener(new View.OnClickListener() {
-            Phong phong;
 
             @Override
             public void onClick(View view) {
@@ -236,8 +235,7 @@ public class PhongFragment extends Fragment implements interfaceDeleteClickdisti
 
             }
         });
-        btn_huyphong
-                .setOnClickListener(new View.OnClickListener() {
+        btn_huyphong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 dialog.dismiss();

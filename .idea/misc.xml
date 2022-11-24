@@ -8,18 +8,34 @@
         <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/drawable-v24/home.xml" value="0.1635" />
         <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/drawable-v24/ic_delete.xml" value="0.1915" />
         <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/drawable/bg_white_conor_10_border_gary.xml" value="0.1915" />
+        <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/drawable/yellow.xml" value="0.209" />
         <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/activity_main.xml" value="0.16799999999999998" />
+        <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/activity_main_add_khach_thue.xml" value="0.25" />
         <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/bottom_layout_hdong.xml" value="0.25" />
+        <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/bottom_layout_khachthue.xml" value="0.10989583333333333" />
+        <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/detail_hop_dong.xml" value="0.25" />
+        <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/detail_khachthue.xml" value="0.24635416666666668" />
+        <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/dialog_bottom_hoadon.xml" value="0.25" />
+        <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/dialog_bottom_khachthue.xml" value="0.25" />
         <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/dialog_bottom_phong.xml" value="0.2359375" />
+        <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/dialog_sua_hoa_don.xml" value="0.25" />
+        <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/dialog_sua_hop_dong.xml" value="0.2" />
         <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/dialog_sua_phong.xml" value="0.2" />
+        <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/dialog_sua_thong_tin_khach_thue.xml" value="0.176" />
         <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/dialog_tao_hoa_don.xml" value="0.264" />
+        <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/dialog_xemchitiet_hoadon.xml" value="0.25" />
         <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/dialogthemphong.xml" value="0.25" />
+        <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/diglog_sua_khach_thue.xml" value="0.264" />
         <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/fragment_hoa_don.xml" value="0.25" />
         <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/fragment_hop_dong.xml" value="0.25" />
         <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/fragment_khach_thue.xml" value="0.25" />
         <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/fragment_phong.xml" value="0.25" />
         <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/header.xml" value="0.25" />
+        <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/item_hopdong.xml" value="0.25" />
+        <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/item_khachthue.xml" value="0.25" />
         <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/item_phong.xml" value="0.25" />
+        <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/item_spiner_phong.xml" value="0.24635416666666668" />
         <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/man_hinh_chi_tiet_phong.xml" value="0.25" />
         <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/manhinhchao.xml" value="0.10989583333333333" />
         <entry key="..\:/DuAn1/AppQuanLyPhongTro/app/src/main/res/layout/tao_hop_dong.xml" value="0.25" />

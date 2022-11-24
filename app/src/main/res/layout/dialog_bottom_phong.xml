@@ -21,6 +21,67 @@
         android:layout_marginBottom="10sp"
         android:background="@color/colorDividerView"
         />
+
+    <LinearLayout
+        android:id="@+id/edt_ThemKhachThue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8sp">
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:src="@drawable/ic_update" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:text="Thêm Khách Thuê"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/edt_ThemHopDong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8sp">
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:src="@drawable/ic_update" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:text="Tạo Hợp Đồng"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/edt_ThemHoaDon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8sp">
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:src="@drawable/ic_update" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:text="Thêm Hóa Đơn"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+    </LinearLayout>
     <LinearLayout
         android:id="@+id/edt_update_dv"
         android:layout_width="match_parent"
@@ -37,7 +98,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30sp"
-            android:text="Sửa"
+            android:text="Sửa Phòng"
             android:textColor="@color/black"
             android:textSize="22sp" />
     </LinearLayout>
@@ -58,7 +119,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30sp"
-            android:text="Xóa"
+            android:text="Xóa Phòng"
             android:textColor="@color/black"
             android:textSize="22sp" />
     </LinearLayout>

@@ -14,11 +14,18 @@ import Model.Phong;
 
 public class PhongDAO {
     private SQLiteDatabase db;
+    
+
+    public PhongDAO() {
+    }
 
     public PhongDAO(Context mContext) {
         DbHelper dbHelper = new DbHelper(mContext);
         db= dbHelper.getWritableDatabase();
+        db= dbHelper.getReadableDatabase();
+        
     }
+
     //insert
     public boolean insertPhong(int SoPhong, int GiaPhong, int GiaDien, int GiaNuoc, int GiaWifi, String TrangThai){
         ContentValues values = new ContentValues();
@@ -55,6 +62,8 @@ public class PhongDAO {
         String sql="SELECT * FROM Phong";
         return getData(sql);
     }
+
+
     //get user by id
     public Phong getUserById(String Id){
         String sql="SELECT * FROM Phong WHERE IdPhong=?";
@@ -84,4 +93,30 @@ public class PhongDAO {
         }
         return null;
     }
+
+    public ArrayList<Phong>getALLKH(){
+        ArrayList<Phong> list= new ArrayList<>();
+        DbHelper dbHelper = null;
+        SQLiteDatabase db = dbHelper.getReadableDatabase();
+        Cursor cursor= db.rawQuery("SELECT * FROM Phong",null);
+        cursor.moveToFirst();
+        if (cursor.getCount()>0){
+            cursor.moveToFirst();
+            while (!cursor.isAfterLast()){
+                int ID = cursor.getInt(0);
+                int SOPHONG = cursor.getInt(1);
+                int GIAPHONG = cursor.getInt(2);
+                int GIADIEN = cursor.getInt(3);
+                int GIANUOC = cursor.getInt(4);
+                int GIAWIFI = cursor.getInt(5);
+                String TRANGTHAI = cursor.getString(6);
+                Phong phong = new Phong(ID,SOPHONG,GIAPHONG,GIADIEN,GIANUOC,GIAWIFI,TRANGTHAI);
+                list.add(phong);
+                cursor.moveToNext();
+            }
+            cursor.close();
+        }
+        return list;
+    }
+
 }

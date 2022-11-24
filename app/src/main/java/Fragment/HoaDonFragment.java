@@ -1,5 +1,7 @@
 package Fragment;
 
+import static android.R.layout.simple_spinner_dropdown_item;
+
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
@@ -14,6 +16,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
@@ -26,16 +30,20 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 
 
 import Adapter.HoaDonAdapter;
+import Adapter.PhongAdapter;
 import DAO.HoaDonDao;
+import DAO.PhongDAO;
 import Model.HoaDon;
+import Model.Phong;
 import longvtph16016.poly.appquanlyphongtro.R;
 import longvtph16016.poly.appquanlyphongtro.interfaceDeleteClickdistioner;
 
 
-public class HoaDonFragment extends Fragment implements interfaceDeleteClickdistioner {
+public class HoaDonFragment extends Fragment implements interfaceDeleteClickdistioner{
 
     EditText  Ed_NgayTao_HDon, Ed_NhapSoDien_HDon, Ed_NhapSoNuoc_HDon, Ed_ChiPhiKhac_HDon,Ed_TongTien_HDon,Ed_GhiChu_HDon;
     Spinner  Ed_ChonSoPhong;
@@ -48,6 +56,8 @@ public class HoaDonFragment extends Fragment implements interfaceDeleteClickdist
     private HoaDonDao HoaDonDao;
     private ArrayList<HoaDon> list = new ArrayList<>();
     Context context;
+    PhongDAO phongDAO;
+    Phong khachHangGet = new Phong();
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
@@ -89,6 +99,33 @@ public class HoaDonFragment extends Fragment implements interfaceDeleteClickdist
         builder.setView(view);
         Dialog dialog = builder.create();
         dialog.show();
+
+        ArrayList<String> listSpiner = new ArrayList<>();
+        ArrayList<Phong> khachHangs = phongDAO.getALLKH();
+        if (khachHangs.size() <= 0) {
+            Toast.makeText(context, "Vui Lòng Thêm khách hàng", Toast.LENGTH_SHORT).show();
+        }
+        if (khachHangs.size() > 0) {
+            khachHangGet = khachHangs.get(1);
+        }
+
+        for (int i = 0; i < khachHangs.size(); i++) {
+            listSpiner.add(String.valueOf(khachHangs.get(i).getSoPhong()));
+        }
+        ArrayAdapter<String> ad = new ArrayAdapter<String>(context, android.R.layout.simple_spinner_item, listSpiner);
+        Ed_ChonSoPhong.setAdapter(ad);
+        Ed_ChonSoPhong.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                khachHangGet = khachHangs.get(i);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
 
         //---------------- an voa anh chon ngay
         Calendar calendar = Calendar.getInstance();//Lay time
@@ -232,8 +269,7 @@ public class HoaDonFragment extends Fragment implements interfaceDeleteClickdist
         });
 
 
-        Btn_huy_HDon
-                .setOnClickListener(new View.OnClickListener() {
+        Btn_huy_HDon.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
                         dialog.dismiss();
@@ -283,4 +319,8 @@ public class HoaDonFragment extends Fragment implements interfaceDeleteClickdist
         });
         builder.show();
     }
+
+
+//------------------------------------
+
 }

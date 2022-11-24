@@ -1,22 +1,23 @@
 package Model;
 
-public class KhachThue {
+import java.io.Serializable;
+
+public class ObjectKhachThue implements Serializable {
     private int IdKhachThue;
     private String HoTen;
     private int SoDienThoai;
     private int Cccd;
     private int SoPhong;
 
-    public KhachThue(int idKhachThue, String hoTen, int soDienThoai, int cccd, int soPhong) {
+    public ObjectKhachThue() {
+    }
+
+    public ObjectKhachThue(int idKhachThue, String hoTen, int soDienThoai, int cccd, int soPhong) {
         IdKhachThue = idKhachThue;
         HoTen = hoTen;
         SoDienThoai = soDienThoai;
         Cccd = cccd;
         SoPhong = soPhong;
-    }
-
-    public KhachThue() {
-
     }
 
 
