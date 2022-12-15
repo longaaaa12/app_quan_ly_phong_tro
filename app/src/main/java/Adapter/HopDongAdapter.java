@@ -217,7 +217,7 @@ public class HopDongAdapter extends BaseAdapter implements Filterable {
         tvSdt.setText("Số CCCD: "+khachThue.getSdt());
         tvSdt.setText("Số điện thoại :"+khachThue.getSdt());
         tvSoPhong.setText(phong.getSoPhong()+"");
-        tvGiaPhong.setText("Giá Thuê: " +phong.getGiaPhong());
+        tvGiaPhong.setText("Giá Thuê: " +phong.getGiaPhong()+" Vnđ");
         tvGiaDien.setText("Tiền điện: "+phong.getGiaDien() +" Vnđ/kwh");
         tvGianuoc.setText("Tiền Nước: "+phong.getGiaNuoc() +" Vnđ/khối");
         tvGiawifi.setText("Tiền Wifi: "+phong.getGiaWifi() +" Vnđ/Tháng");
